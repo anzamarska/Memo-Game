@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 33.33vh;
+    border: white 4px solid;
+}
+
+@media (orientation:portrait) {
+    div{
+        flex-basis: 30%;
+        height: 16.66vh;
+    }
+}
+
+.red {
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.blueviolet{
+    background-color: blueviolet;
+}
+.pink{
+    background-color: pink;
+}
+.orange {
+    background-color: orange;
+}
+.darkcyan{
+    background-color: darkcyan;
+}
+.hotpink{
+    background-color: hotpink;
+}
+
+.off{
+    background-color: beige;
+}
+
+.hidden{
+    background-color: grey;
+}
